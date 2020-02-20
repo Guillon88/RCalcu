@@ -1,2 +1,0 @@
-# RCalcu
-Created with CodeSandbox

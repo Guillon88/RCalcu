@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.calcu {
+  border-style: solid;
+  max-width: 300px;
+}
+
+.calcu-screen-operador {
+  font-family: "Orbitron", sans-serif;
+  border-style: solid;
+  border-bottom: none;
+  background-color: chartreuse;
+  text-align: right;
+  font-size: 150%;
+  height: 33px;
+}
+
+.calcu-screen {
+  border-style: solid;
+  border-top: none;
+  text-align: right;
+  font-family: "Orbitron", sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  background-color: chartreuse;
+}
+
+.buttons-row {
+  display: table;
+}
+
+.button {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  display: table-cell;
+  border-style: solid;
+  width: 75px;
+  background-color: cornflowerblue;
+}
+
+.button:hover {
+  background-color: red;
+}
+.button:active {
+  background-color: brown;
+}
+
+.button-space {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  display: table-cell;
+  border-style: solid;
+  width: 75px;
+  background-color: cornflowerblue;
+}
