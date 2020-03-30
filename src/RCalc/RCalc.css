@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+
+@font-face {
+  font-family: "open24display";
+  src: url("open24display.ttf");
+}
+.calcu {
+  border-style: solid;
+  max-width: 300px;
+}
+
+.calcu-screen {
+  border-style: solid;
+  text-align: right;
+  font-family: "open24display", sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  background-color: chartreuse;
+}
+
+.calcu-screen-operador {
+  font-size: large;
+  height: 20px;
+}
+
+.buttons-row {
+  display: table;
+}
+
+.button {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  display: table-cell;
+  border-style: solid;
+  width: 75px;
+  background-color: cornflowerblue;
+}
+
+.hover:hover {
+  background-color: red;
+}
+.hover:active {
+  background-color: brown;
+}
+
+.button-space {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  display: table-cell;
+  border-style: solid;
+  width: 75px;
+  background-color: cornflowerblue;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
